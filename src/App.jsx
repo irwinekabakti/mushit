@@ -5,7 +5,7 @@ import router from "./routes/Routes";
 const App = () => {
   return (
     <>
-      <h1 className="bg-red-300 text-green-400">Test</h1>
+      <h1 className="bg-red-300 text-green-400 items-end	">Test</h1>
       <RouterProvider router={router} />
     </>
   );
