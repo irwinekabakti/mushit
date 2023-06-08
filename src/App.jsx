@@ -5,8 +5,11 @@ import router from "./routes/Routes";
 const App = () => {
   return (
     <>
-      <h1 className="bg-red-300 text-green-400 items-end	">Test</h1>
-      <RouterProvider router={router} />
+      <main className="bg-green-50 min-h-screen">
+        <div className="max-w-[1440px] mx-auto">
+          <RouterProvider router={router} />
+        </div>
+      </main>
     </>
   );
 };
